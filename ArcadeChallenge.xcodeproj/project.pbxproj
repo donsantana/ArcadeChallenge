@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,16 @@
 		F4929D062C24DA760030361D /* ArcadeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4929D052C24DA760030361D /* ArcadeChallengeTests.swift */; };
 		F4929D102C24DA760030361D /* ArcadeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4929D0F2C24DA760030361D /* ArcadeChallengeUITests.swift */; };
 		F4929D122C24DA760030361D /* ArcadeChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4929D112C24DA760030361D /* ArcadeChallengeUITestsLaunchTests.swift */; };
+		F4929D202C25D1380030361D /* DecodeFrames in Frameworks */ = {isa = PBXBuildFile; productRef = F4929D1F2C25D1380030361D /* DecodeFrames */; };
+		F4EA287A2C2A491B004F6637 /* frames-7501.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28792C2A491B004F6637 /* frames-7501.h265 */; };
+		F4EA28882C2B444F004F6637 /* frames-7497.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28802C2B444F004F6637 /* frames-7497.h265 */; };
+		F4EA28892C2B444F004F6637 /* frames-7493.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28812C2B444F004F6637 /* frames-7493.h265 */; };
+		F4EA288A2C2B444F004F6637 /* frames-7495.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28822C2B444F004F6637 /* frames-7495.h265 */; };
+		F4EA288B2C2B444F004F6637 /* frames-7496.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28832C2B444F004F6637 /* frames-7496.h265 */; };
+		F4EA288C2C2B444F004F6637 /* frames-7500.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28842C2B444F004F6637 /* frames-7500.h265 */; };
+		F4EA288D2C2B444F004F6637 /* frames-7498.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28852C2B444F004F6637 /* frames-7498.h265 */; };
+		F4EA288E2C2B444F004F6637 /* frames-7494.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28862C2B444F004F6637 /* frames-7494.h265 */; };
+		F4EA288F2C2B444F004F6637 /* frames-7499.h265 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA28872C2B444F004F6637 /* frames-7499.h265 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,16 @@
 		F4929D0B2C24DA760030361D /* ArcadeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcadeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4929D0F2C24DA760030361D /* ArcadeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeChallengeUITests.swift; sourceTree = "<group>"; };
 		F4929D112C24DA760030361D /* ArcadeChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4EA28792C2A491B004F6637 /* frames-7501.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7501.h265"; sourceTree = "<group>"; };
+		F4EA287D2C2A6D02004F6637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F4EA28802C2B444F004F6637 /* frames-7497.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7497.h265"; sourceTree = "<group>"; };
+		F4EA28812C2B444F004F6637 /* frames-7493.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7493.h265"; sourceTree = "<group>"; };
+		F4EA28822C2B444F004F6637 /* frames-7495.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7495.h265"; sourceTree = "<group>"; };
+		F4EA28832C2B444F004F6637 /* frames-7496.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7496.h265"; sourceTree = "<group>"; };
+		F4EA28842C2B444F004F6637 /* frames-7500.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7500.h265"; sourceTree = "<group>"; };
+		F4EA28852C2B444F004F6637 /* frames-7498.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7498.h265"; sourceTree = "<group>"; };
+		F4EA28862C2B444F004F6637 /* frames-7494.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7494.h265"; sourceTree = "<group>"; };
+		F4EA28872C2B444F004F6637 /* frames-7499.h265 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "frames-7499.h265"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4929D202C25D1380030361D /* DecodeFrames in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +97,7 @@
 		F4929CE62C24DA740030361D = {
 			isa = PBXGroup;
 			children = (
+				F4929D252C2627870030361D /* MockFiles */,
 				F4929CF12C24DA740030361D /* ArcadeChallenge */,
 				F4929D042C24DA760030361D /* ArcadeChallengeTests */,
 				F4929D0E2C24DA760030361D /* ArcadeChallengeUITests */,
@@ -96,6 +118,7 @@
 		F4929CF12C24DA740030361D /* ArcadeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				F4EA287D2C2A6D02004F6637 /* Info.plist */,
 				F4929CF22C24DA740030361D /* ArcadeChallengeApp.swift */,
 				F4929CF42C24DA740030361D /* ContentView.swift */,
 				F4929CF62C24DA740030361D /* Item.swift */,
@@ -130,6 +153,22 @@
 			path = ArcadeChallengeUITests;
 			sourceTree = "<group>";
 		};
+		F4929D252C2627870030361D /* MockFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA28812C2B444F004F6637 /* frames-7493.h265 */,
+				F4EA28862C2B444F004F6637 /* frames-7494.h265 */,
+				F4EA28822C2B444F004F6637 /* frames-7495.h265 */,
+				F4EA28832C2B444F004F6637 /* frames-7496.h265 */,
+				F4EA28802C2B444F004F6637 /* frames-7497.h265 */,
+				F4EA28852C2B444F004F6637 /* frames-7498.h265 */,
+				F4EA28872C2B444F004F6637 /* frames-7499.h265 */,
+				F4EA28842C2B444F004F6637 /* frames-7500.h265 */,
+				F4EA28792C2A491B004F6637 /* frames-7501.h265 */,
+			);
+			path = MockFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +185,9 @@
 			dependencies = (
 			);
 			name = ArcadeChallenge;
+			packageProductDependencies = (
+				F4929D1F2C25D1380030361D /* DecodeFrames */,
+			);
 			productName = ArcadeChallenge;
 			productReference = F4929CEF2C24DA740030361D /* ArcadeChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +260,9 @@
 				Base,
 			);
 			mainGroup = F4929CE62C24DA740030361D;
+			packageReferences = (
+				F4929D1E2C25D1380030361D /* XCLocalSwiftPackageReference "../DecodeFrames" */,
+			);
 			productRefGroup = F4929CF02C24DA740030361D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,8 +279,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EA288E2C2B444F004F6637 /* frames-7494.h265 in Resources */,
+				F4EA288F2C2B444F004F6637 /* frames-7499.h265 in Resources */,
+				F4EA28892C2B444F004F6637 /* frames-7493.h265 in Resources */,
+				F4EA288A2C2B444F004F6637 /* frames-7495.h265 in Resources */,
+				F4EA288C2C2B444F004F6637 /* frames-7500.h265 in Resources */,
+				F4EA288B2C2B444F004F6637 /* frames-7496.h265 in Resources */,
 				F4929CFC2C24DA750030361D /* Preview Assets.xcassets in Resources */,
+				F4EA28882C2B444F004F6637 /* frames-7497.h265 in Resources */,
 				F4929CF92C24DA750030361D /* Assets.xcassets in Resources */,
+				F4EA288D2C2B444F004F6637 /* frames-7498.h265 in Resources */,
+				F4EA287A2C2A491B004F6637 /* frames-7501.h265 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +483,7 @@
 				DEVELOPMENT_TEAM = 48G34LX7UB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcadeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +513,7 @@
 				DEVELOPMENT_TEAM = 48G34LX7UB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArcadeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -592,6 +648,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F4929D1E2C25D1380030361D /* XCLocalSwiftPackageReference "../DecodeFrames" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../DecodeFrames;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4929D1F2C25D1380030361D /* DecodeFrames */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DecodeFrames;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4929CE72C24DA740030361D /* Project object */;
 }
